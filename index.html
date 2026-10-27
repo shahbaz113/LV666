@@ -176,6 +176,22 @@
             color: #94a3b8;
         }
 
+        .footer-links {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
         @media (max-width: 600px) {
             body {
                 padding: 15px;
@@ -224,6 +240,9 @@
         </article>
 
         <footer>
+            <div class="footer-links">
+                <a href="https://blogs121.bitbucket.io/lv666.html" target="_blank" rel="noopener">Bitbucket Mirror</a>
+            </div>
             <p>&copy; 2026 LV666 Game Hub. All Rights Reserved.</p>
         </footer>
     </main>
